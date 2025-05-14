@@ -1,8 +1,14 @@
 from flask import Flask, request, jsonify, render_template_string
 from datetime import datetime
 import logging
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
+
+PORT = int(os.getenv("SERVER_PORT", 5000))
 
 logging.basicConfig(filename='camera_events.log',
                     level=logging.INFO,
@@ -47,4 +53,4 @@ def status():
     return render_template_string(html)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=PORT)
