@@ -1,9 +1,13 @@
 import cv2
 import time
 import requests
+import os
+from dotenv import load_dotenv
 
-API_URL = "http://localhost:5000"
-CHECK_INTERVAL = 10
+load_dotenv()
+
+API_URL = os.getenv("API_URL", "http://localhost:5000")
+CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", 10))
 
 def is_camera_in_use():
     cap = cv2.VideoCapture(0)
