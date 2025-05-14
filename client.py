@@ -9,13 +9,25 @@ load_dotenv()
 API_URL = os.getenv("API_URL", "http://localhost:5000")
 CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", 10))
 
-def is_camera_in_use():
-    cap = cv2.VideoCapture(0)
+# cv2.utils.logging.setLogLevel(cv2.utils.logging.LOG_LEVEL_ERROR)
+
+def is_camera_available():
+    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
     if not cap.isOpened():
-        return True
+        cap.release()
+        return False
     ret, _ = cap.read()
     cap.release()
-    return not ret
+    return ret
+
+def is_camera_in_use():
+    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+    if not cap.isOpened():
+        cap.release()
+        return False
+    ret, _ = cap.read()
+    cap.release()
+    return ret
 
 def main():
     was_using_camera = False

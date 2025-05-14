@@ -19,3 +19,39 @@
 2025-05-15 00:59:42,312 -  * Restarting with stat
 2025-05-15 00:59:43,437 -  * Debugger is active!
 2025-05-15 00:59:43,458 -  * Debugger PIN: 725-819-023
+2025-05-15 00:59:47,481 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 00:59:47,481 - [33mPress CTRL+C to quit[0m
+2025-05-15 00:59:47,483 -  * Restarting with stat
+2025-05-15 00:59:48,453 -  * Debugger is active!
+2025-05-15 00:59:48,472 -  * Debugger PIN: 725-819-023
+2025-05-15 01:01:23,566 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:01:23,710 -  * Restarting with stat
+2025-05-15 01:01:24,858 -  * Debugger is active!
+2025-05-15 01:01:24,869 -  * Debugger PIN: 725-819-023
+2025-05-15 01:02:03,526 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:02:03,661 -  * Restarting with stat
+2025-05-15 01:02:04,348 -  * Debugger is active!
+2025-05-15 01:02:04,358 -  * Debugger PIN: 725-819-023
+2025-05-15 01:02:23,273 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:02:23,416 -  * Restarting with stat
+2025-05-15 01:02:24,191 -  * Debugger is active!
+2025-05-15 01:02:24,216 -  * Debugger PIN: 725-819-023
+2025-05-15 01:02:27,956 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:02:28,010 -  * Restarting with stat
+2025-05-15 01:02:28,599 -  * Debugger is active!
+2025-05-15 01:02:28,612 -  * Debugger PIN: 725-819-023
+2025-05-15 01:02:40,636 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:02:40,729 -  * Restarting with stat
+2025-05-15 01:02:41,353 -  * Debugger is active!
+2025-05-15 01:02:41,364 -  * Debugger PIN: 725-819-023
+2025-05-15 01:02:45,676 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:02:45,800 -  * Restarting with stat
+2025-05-15 01:02:46,444 -  * Debugger is active!
+2025-05-15 01:02:46,460 -  * Debugger PIN: 725-819-023
+2025-05-15 01:02:58,199 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:02:58,335 -  * Restarting with stat
+2025-05-15 01:02:59,149 -  * Debugger is active!
+2025-05-15 01:02:59,159 -  * Debugger PIN: 725-819-023
+2025-05-15 01:03:16,798 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\client.py', reloading
+2025-05-15 01:03:17,011 -  * Restarting with stat
