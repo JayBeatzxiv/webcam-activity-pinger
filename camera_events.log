@@ -1,3 +1,21 @@
 2025-05-14 12:30:21,340 - 📷 Camera is active.
 2025-05-14 12:30:32,105 - 📷 Camera is active.
 2025-05-14 12:30:45,872 - 🛑 Camera stopped.
+2025-05-15 00:56:15,162 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 00:56:15,163 - [33mPress CTRL+C to quit[0m
+2025-05-15 00:56:15,178 -  * Restarting with stat
+2025-05-15 00:56:15,683 -  * Debugger is active!
+2025-05-15 00:56:15,690 -  * Debugger PIN: 725-819-023
+2025-05-15 00:57:58,239 - \U0001f4f7 Camera is active.
+2025-05-15 00:57:58,240 - 127.0.0.1 - - [15/May/2025 00:57:58] "PATCH /camera HTTP/1.1" 200 -
+2025-05-15 00:58:11,884 - \U0001f6d1 Camera stopped.
+2025-05-15 00:58:11,886 - 127.0.0.1 - - [15/May/2025 00:58:11] "POST /camera/stop HTTP/1.1" 200 -
+2025-05-15 00:59:30,053 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\server.py', reloading
+2025-05-15 00:59:30,181 -  * Restarting with stat
+2025-05-15 00:59:32,085 -  * Debugger is active!
+2025-05-15 00:59:32,163 -  * Debugger PIN: 725-819-023
+2025-05-15 00:59:42,192 -  * Detected change in 'C:\\Users\\ALI\\Projects\\webcam-activity-pinger\\server.py', reloading
+2025-05-15 00:59:42,312 -  * Restarting with stat
+2025-05-15 00:59:43,437 -  * Debugger is active!
+2025-05-15 00:59:43,458 -  * Debugger PIN: 725-819-023

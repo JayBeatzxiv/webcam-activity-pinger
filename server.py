@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template_string
-from datetime import datetime
+from datetime import datetime, timezone
 import logging
 import os
 from dotenv import load_dotenv
@@ -22,7 +22,7 @@ camera_state = {
 @app.route('/camera', methods=['PATCH'])
 def camera_ping():
     camera_state["active"] = True
-    camera_state["last_update"] = datetime.utcnow()
+    camera_state["last_update"] = datetime.now(timezone.utc)
     log_message = "📷 Camera is active."
     print(log_message)
     logging.info(log_message)
@@ -31,7 +31,7 @@ def camera_ping():
 @app.route('/camera/stop', methods=['POST'])
 def camera_stop():
     camera_state["active"] = False
-    camera_state["last_update"] = datetime.utcnow()
+    camera_state["last_update"] = datetime.now(timezone.utc)
     log_message = "🛑 Camera stopped."
     print(log_message)
     logging.info(log_message)
