@@ -1,0 +1,9 @@
+services:
+  camera-server:
+    build: ./
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./.env
+    volumes:
+      - ./camera_events.log:/app/camera_events.log
